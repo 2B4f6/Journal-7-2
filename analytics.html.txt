@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analytics</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Analytics</h1>
+<a href="index.html">← Back to Journal</a>
+
+<div class="stats">
+  <div class="stat-box"><h3>Trades</h3><p id="trades">0</p></div>
+  <div class="stat-box"><h3>Win Rate</h3><p id="winrate">0%</p></div>
+  <div class="stat-box"><h3>Expectancy</h3><p id="expectancy">0R</p></div>
+  <div class="stat-box"><h3>Profit Factor</h3><p id="pf">0</p></div>
+</div>
+
+<canvas id="equity"></canvas>
+
+<script src="analytics.js"></script>
+</body>
+</html>
